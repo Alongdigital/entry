@@ -28,7 +28,7 @@ window.DamodarAssets = {
     hero: "https://imgh.in/host/aqrj54",
     classroom: "https://imgh.in/host/sbj6ps",
     gallery1: "https://imgh.in/host/sbj6ps",
-    gallery2: "",
+    gallery2: "https://krpvkdfghivmtlbpdjtp.supabase.co/storage/v1/object/public/images/51bcf34d-d932-41be-8dcf-bb5b68a7a99e.jpg",
     gallery3: "",
     entrance: "",
     building: "",
