@@ -5,7 +5,7 @@
 */
 window.DamodarAssets = {
   siteName: "Damodar Academy & Tuitions",
-  tagline: "Learn Today, Lead Tomorrow.",
+  tagline: "अब हर स्कूल के बच्चें बनेंगे टाॅपर",
   location: "Nangloi, Delhi, India",
   phone1: "9312208052",
   phone2: "9355438554",
