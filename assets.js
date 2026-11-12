@@ -32,7 +32,7 @@ window.DamodarAssets = {
     gallery2: "https://imgh.in/host/zl24ok",
     entrance: "https://krpvkdfghivmtlbpdjtp.supabase.co/storage/v1/object/public/images/2ac5eb3f-8fa9-48d5-b016-1baedcccbccf.jpg",
     building: "",
-    parking: "",
+    parking: "https://krpvkdfghivmtlbpdjtp.supabase.co/storage/v1/object/public/images/8434e580-b475-47b8-ac6a-d67d2874467f.jpg",
     learningSpace: "",
     logo: ""
   },
