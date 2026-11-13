@@ -30,8 +30,8 @@ window.DamodarAssets = {
     gallery1: "https://imgh.in/host/sbj6ps",
     gallery3: "https://krpvkdfghivmtlbpdjtp.supabase.co/storage/v1/object/public/images/51bcf34d-d932-41be-8dcf-bb5b68a7a99e.jpg",
     gallery2: "https://imgh.in/host/zl24ok",
-    entrance: "https://krpvkdfghivmtlbpdjtp.supabase.co/storage/v1/object/public/images/2ac5eb3f-8fa9-48d5-b016-1baedcccbccf.jpg",
-    building: "",
+    building: "https://krpvkdfghivmtlbpdjtp.supabase.co/storage/v1/object/public/images/2ac5eb3f-8fa9-48d5-b016-1baedcccbccf.jpg",
+    entrance: "https://krpvkdfghivmtlbpdjtp.supabase.co/storage/v1/object/public/images/ecebbf05-b0e7-4c66-9077-17ee60e087c5.jpg",
     parking: "https://krpvkdfghivmtlbpdjtp.supabase.co/storage/v1/object/public/images/8434e580-b475-47b8-ac6a-d67d2874467f.jpg",
     learningSpace: "",
     logo: ""
