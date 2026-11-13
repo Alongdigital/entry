@@ -667,6 +667,20 @@ footer p, footer a {
   gap: 7px;
 }
 
+.section-soft {
+    position: relative;
+    background:
+        linear-gradient(
+            rgba(255,255,255,0.85),
+            rgba(255,255,255,0.85)
+        ),
+        url("assets/images/academy.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .footer-links a:hover { color: var(--gold); }
 
 .copyright {
