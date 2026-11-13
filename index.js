@@ -19,6 +19,23 @@
     });
     nav.querySelectorAll("a").forEach(a => a.addEventListener("click", () => nav.classList.remove("show")));
   }
+  document.addEventListener("DOMContentLoaded", () => {
+
+    document.querySelectorAll(".section-soft").forEach(section => {
+
+        section.style.backgroundImage = `
+            linear-gradient(
+                rgba(255,255,255,0.85),
+                rgba(255,255,255,0.85)
+            ),
+            url("${window.ASSETS.academyBackground}")
+        `;
+
+        section.style.backgroundSize = "cover";
+        section.style.backgroundPosition = "center";
+    });
+
+});
 
   const phoneLink = $("[data-phone-link]");
   if (phoneLink && A.phone1) phoneLink.href = "tel:" + A.phone1;
