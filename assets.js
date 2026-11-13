@@ -34,7 +34,8 @@ window.DamodarAssets = {
     entrance: "https://krpvkdfghivmtlbpdjtp.supabase.co/storage/v1/object/public/images/ecebbf05-b0e7-4c66-9077-17ee60e087c5.jpg",
     parking: "https://krpvkdfghivmtlbpdjtp.supabase.co/storage/v1/object/public/images/8434e580-b475-47b8-ac6a-d67d2874467f.jpg",
     learningSpace: "https://krpvkdfghivmtlbpdjtp.supabase.co/storage/v1/object/public/images/d49aeeb7-7c2e-4106-975e-317441d1e4b6.jpg",
-    logo: "https://krpvkdfghivmtlbpdjtp.supabase.co/storage/v1/object/public/images/283554a4-1764-4dba-888c-d073cc1c2223.png"
+    logo: "https://krpvkdfghivmtlbpdjtp.supabase.co/storage/v1/object/public/images/283554a4-1764-4dba-888c-d073cc1c2223.png",
+    academyBackground: "Url",
   },
   watermark: {
     enabled: true,
