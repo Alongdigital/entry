@@ -669,18 +669,12 @@ footer p, footer a {
 
 .section-soft {
     position: relative;
-    background:
-        linear-gradient(
-            rgba(255,255,255,0.85),
-            rgba(255,255,255,0.85)
-        ),
-        url("assets/images/academy.jpg");
+    background-color: #ffffff;
 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-
 .footer-links a:hover { color: var(--gold); }
 
 .copyright {
