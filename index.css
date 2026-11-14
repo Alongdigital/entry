@@ -751,6 +751,20 @@ footer p, footer a {
   .footer-grid { grid-template-columns: 1fr; }
   .footer-grid > div:first-child { grid-column: auto; }
 }
+.cross-watermark {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 75vw;
+    font-weight: 900;
+    color: rgba(120, 120, 120, 0.035);
+    pointer-events: none;
+    user-select: none;
+    z-index: 9999;
+    overflow: hidden;
+}
 
 /* Separate-page navigation and shared footer */
 .nav-links a { display:inline-block; }
