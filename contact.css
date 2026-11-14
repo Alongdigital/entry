@@ -248,6 +248,39 @@ header {
   gap: 12px;
   flex-wrap: wrap;
 }
+/* AlongDigital Website Watermark */
+
+.site-watermark {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    pointer-events: none;
+    user-select: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+    transform: rotate(-30deg);
+
+    color: rgba(128, 128, 128, 0.055);
+    font-size: clamp(35px, 8vw, 100px);
+    font-weight: 900;
+    letter-spacing: 8px;
+    white-space: nowrap;
+
+    font-family: Arial, sans-serif;
+}
+
+/* Mobile Responsive */
+
+@media (max-width: 600px) {
+    .site-watermark {
+        font-size: 38px;
+        letter-spacing: 4px;
+    }
+}
 
 .hero-visual {
   min-height: 400px;
