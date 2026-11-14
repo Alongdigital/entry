@@ -5,6 +5,7 @@
 */
 window.DamodarAssets = {
   siteName: "Damodar Academy & Tuitions",
+  academyBackground: "https://krpvkdfghivmtlbpdjtp.supabase.co/storage/v1/object/public/images/2c2572e7-d5ef-41e4-87a4-d7c94255f783.jpg",
   tagline: "अब हर स्कूल के बच्चें बनेंगे टाॅपर",
   location: "Nangloi, Delhi, India",
   phone1: "9312208052",
@@ -36,9 +37,6 @@ window.DamodarAssets = {
     learningSpace: "https://krpvkdfghivmtlbpdjtp.supabase.co/storage/v1/object/public/images/d49aeeb7-7c2e-4106-975e-317441d1e4b6.jpg",
     logo: "https://krpvkdfghivmtlbpdjtp.supabase.co/storage/v1/object/public/images/283554a4-1764-4dba-888c-d073cc1c2223.png",
   },
-  window.ASSETS = {
-  academyBackground: "https://krpvkdfghivmtlbpdjtp.supabase.co/storage/v1/object/public/images/2c2572e7-d5ef-41e4-87a4-d7c94255f783.jpg",
-},
   watermark: {
     enabled: true,
     text: "Designed by Shankar Singh Rajput",
