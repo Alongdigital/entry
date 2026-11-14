@@ -28,7 +28,7 @@
                 rgba(255,255,255,0.85),
                 rgba(255,255,255,0.85)
             ),
-            url("${window.ASSETS.academyBackground}")
+            url("${window.DamodarAssets.academyBackground}")
         `;
 
         section.style.backgroundSize = "cover";
