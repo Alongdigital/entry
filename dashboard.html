@@ -1,1 +1,226 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard | Damodar Academy</title>
+    <link rel="stylesheet" href="assets/css/admin.css">
+</head>
+<body class="admin-body">
+
+<div class="admin-layout">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar" id="sidebar">
+
+        <div class="sidebar-brand">
+            <div class="brand-icon">DA</div>
+            <div>
+                <h3>Damodar Academy</h3>
+                <small>ADMIN PANEL</small>
+            </div>
+        </div>
+
+        <nav class="sidebar-nav">
+
+            <span class="nav-label">MAIN MENU</span>
+
+            <a href="dashboard.html" class="nav-link active">
+                <span>▦</span> Dashboard
+            </a>
+
+            <span class="nav-label">ACADEMY MANAGEMENT</span>
+
+            <a href="#" class="nav-link">
+                <span>♙</span> Students
+            </a>
+            <a href="#" class="nav-link">
+                <span>✉</span> Enquiries
+            </a>
+            <a href="#" class="nav-link">
+                <span>▤</span> Courses
+            </a>
+            <a href="#" class="nav-link">
+                <span>₹</span> Fee Management
+            </a>
+            <a href="#" class="nav-link">
+                <span>◷</span> Attendance
+            </a>
+            <a href="#" class="nav-link">
+                <span>▣</span> Examinations
+            </a>
+
+            <span class="nav-label">WEBSITE MANAGEMENT</span>
+
+            <a href="#" class="nav-link">
+                <span>⌂</span> Homepage
+            </a>
+            <a href="#" class="nav-link">
+                <span>▧</span> Gallery
+            </a>
+            <a href="#" class="nav-link">
+                <span>♧</span> Teachers
+            </a>
+            <a href="#" class="nav-link">
+                <span>◉</span> Notices
+            </a>
+            <a href="#" class="nav-link">
+                <span>▤</span> Pages & Content
+            </a>
+
+            <span class="nav-label">SYSTEM</span>
+
+            <a href="#" class="nav-link">
+                <span>⚙</span> Settings
+            </a>
+            <a href="#" class="nav-link">
+                <span>◈</span> Reports
+            </a>
+
+        </nav>
+
+        <div class="sidebar-bottom">
+            <button id="logoutBtn" class="logout-btn">
+                ↪ Sign Out
+            </button>
+        </div>
+
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <main class="main-content">
+
+        <!-- TOP NAVBAR -->
+        <header class="topbar">
+
+            <div class="topbar-left">
+                <button id="menuToggle" class="menu-btn">☰</button>
+                <div>
+                    <h2>Dashboard</h2>
+                    <small>Academy overview</small>
+                </div>
+            </div>
+
+            <div class="topbar-right">
+                <button class="icon-btn" aria-label="Notifications">♧</button>
+                <div class="admin-profile">
+                    <div class="avatar">A</div>
+                    <div>
+                        <strong id="adminName">Administrator</strong>
+                        <small id="adminRole">Owner</small>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+
+        <!-- DASHBOARD -->
+        <section class="dashboard-content">
+
+            <div class="welcome-section">
+                <div>
+                    <span class="eyebrow">OVERVIEW</span>
+                    <h1>Welcome to Damodar Academy</h1>
+                    <p>Here's what's happening with your academy.</p>
+                </div>
+                <div class="date-display" id="todayDate"></div>
+            </div>
+
+            <!-- STATISTICS -->
+            <div class="stats-grid">
+
+                <div class="stat-card">
+                    <div class="stat-icon blue">♙</div>
+                    <span>Total Students</span>
+                    <h2>—</h2>
+                    <small>Student records</small>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-icon purple">✉</div>
+                    <span>Total Enquiries</span>
+                    <h2>—</h2>
+                    <small>Admission enquiries</small>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-icon orange">▤</div>
+                    <span>Active Courses</span>
+                    <h2>—</h2>
+                    <small>Available courses</small>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-icon green">✓</div>
+                    <span>Pending Requests</span>
+                    <h2>—</h2>
+                    <small>Require attention</small>
+                </div>
+
+            </div>
+
+            <!-- QUICK ACTIONS -->
+            <section class="content-card">
+                <div class="section-heading">
+                    <div>
+                        <h2>Quick Actions</h2>
+                        <p>Frequently used management tools.</p>
+                    </div>
+                </div>
+
+                <div class="quick-grid">
+                    <button class="quick-action">
+                        <span>＋</span>
+                        Add Student
+                    </button>
+                    <button class="quick-action">
+                        <span>✉</span>
+                        View Enquiries
+                    </button>
+                    <button class="quick-action">
+                        <span>▤</span>
+                        Add Course
+                    </button>
+                    <button class="quick-action">
+                        <span>▧</span>
+                        Upload Image
+                    </button>
+                </div>
+            </section>
+
+            <!-- LOWER SECTION -->
+            <div class="bottom-grid">
+
+                <section class="content-card">
+                    <h2>Recent Enquiries</h2>
+                    <p>Latest admission enquiries will appear here.</p>
+                    <div class="empty-state">
+                        No enquiry data available.
+                    </div>
+                </section>
+
+                <section class="content-card">
+                    <h2>Recent Activities</h2>
+                    <p>Latest administrative activities.</p>
+                    <div class="empty-state">
+                        No activity records available.
+                    </div>
+                </section>
+
+            </div>
+
+            <footer class="admin-footer">
+                © 2026 Damodar Academy | Administration Portal
+            </footer>
+
+        </section>
+
+    </main>
+
+</div>
+
+<script src="assets/js/admin.js"></script>
+</body>
+                  </html>
+                  
